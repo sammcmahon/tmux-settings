@@ -16,6 +16,6 @@ fi
 
 # Install new config in home folder
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-cp .tmux.conf ~/.tmux.conf
+cp tmux.conf ~/.tmux.conf
 
 echo "Type \"Ctrl-a I\" in tmux to load plugins."
